@@ -12,3 +12,37 @@ HARDWARE DEPENDENCIES - For our current implementation the following parts were 
 - 10k Resistor
 - Sodering Equipment
 - BNC Connector
+
+SOFTWARE DEPENDENCIES - For our current implementation the following programs were used:
+
+- Arduino IDE 1.8.16: https://www.arduino.cc/en/software
+- Adafruit DRV2605 Library: https://www.arduino.cc/reference/en/libraries/adafruit-drv2605-library/
+- LiquidCrystal Library: https://www.arduino.cc/en/Reference/LiquidCrystal
+- Wire Library: https://www.arduino.cc/en/reference/wire
+
+INSTRUCTIONAL TUTORIAL VIDEO - https://youtu.be/4vuaaAn_hQ4
+
+LIGHTNING VIDEO - https://www.youtube.com/watch?v=8L6QtHLk0Bw
+
+STEPS TO REPLICATE WORK -
+
+1. Include all Arduino Libraries as listed above
+2. Download Arduino Code needed to control device
+3. Put attatched Motor and Cell in Finger Splint and lodge in the Finger Straightener
+4. Plug Device into laptop and run
+
+PSYCHOMETRIC TEST STEPS -
+
+1. Run PsychometricTestCode.ino
+2. Place participant's pointer finger in finger clamp
+3. Tighten to desired pressure
+4. Ensure minimal noise and visual cues to not skew data
+5. Open the serial monitor to view vibration level
+6. Reupload Code to board
+7. Participant is to let researcher know when they first feel a buzz
+8. Researcher records at what level buzz was felt
+9. Repeat 10 times for each level (light, medium, tight)
+
+NEUROMETRIC TEST STEPS:
+
+NOTE: If you want to collect/view Neurometric (brain) results, you will need an external machine capable of using a BNC connector as well as the necessary equipment to read brain functionality, and of course the proper supervision
